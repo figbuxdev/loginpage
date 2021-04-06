@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_devstart/BoxDecorationWidget.dart';
 import 'package:flutter_devstart/CardWidget.dart';
 import 'package:flutter_devstart/DropdownButtonWidget.dart';
-import 'package:flutter_devstart/LoginPage.dart';
+import 'package:flutter_devstart/LoginPage/LoginPage.dart';
+import 'package:flutter_devstart/LoginPage/LoginPage_v1.dart';
 
 void main() {
   runApp(MyApp());
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: LoginPage(),
+      home: LoginPage1(),
     );
   }
 }
